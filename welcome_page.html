@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Welcome
+        </title>
+
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="welcome_page/welcome_page.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to PotatOS!</h1>
+        </header>
+
+        <article>
+            <h2>Please enjoy the complimentary Pot8OS Welcome Theme:</h2>
+            <audio controls autoplay>
+                <source src="resources/Audio/Pot8OS_Startup_Theme_release.mp3" type="audio/mpeg"/>
+                AUDIO NOT SUPPORTED
+            </audio>
+
+            <div>
+
+                <img id="main_logo" src="resources/Pictures/Pot8OS.jpg" width="700px"/>
+                <div id="progress_text">Boot in progress</div>
+
+                <div id="various_things"></div>
+            </div>
+        </article>
+
+
+        <aside>
+            <div id="scrolling_text_container">
+                <textarea readonly id="scrolling_text" rows="20" cols="200">
+
+                </textarea>
+                <form id="login" action="resources/potatoHASH.html">
+                    <input type="submit" value="LOGIN"/>
+                </form>
+            </div>
+
+        </aside>
+
+        <footer>
+
+        </footer>
+
+
+        <script src="resources/Libraries/jquery_comp.js"></script>
+        <script src="welcome_page/welcome_page.js"></script>
+    </body>
+</html>
